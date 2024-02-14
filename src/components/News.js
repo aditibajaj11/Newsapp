@@ -99,7 +99,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
  
     return (
       <>
-      <h1 className='text-center' style={{margin:'37px 0px', marginTop:'90px'}}>NewsBuzz - Top {capitalizeFirstletter(props.category)} Headlines</h1>
+      <h1 className='text-center' style={{margin:'37px 0px', marginTop:'90px'}}>NewsDaily - Top {capitalizeFirstletter(props.category)} Headlines</h1>
       {loading&&<Spinner/>}
 
       <InfiniteScroll
