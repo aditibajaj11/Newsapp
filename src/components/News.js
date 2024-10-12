@@ -23,6 +23,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
     let data=await fetch(url)
     props.setProgress(30);
     let parsedata=await data.json()
+    console.log(parsedata);
     props.setProgress(70);
     setArticles(parsedata.articles)
     setLoading(false)

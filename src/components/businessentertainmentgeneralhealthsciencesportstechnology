@@ -9,4 +9,4 @@
 
 
 
-<Route path="/"><News pageSize={6} country="in" category="sports" /></Route>
+<Route path="/newsapp"><News pageSize={6} country="in" category="general" /></Route>
